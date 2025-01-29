@@ -49,7 +49,6 @@ def test7_create_kit_with_numbers_in_the_name():
     current_kit_body = get_kit_body(data.test7_kit_name)
     positive_assert (current_kit_body)
 
-
 def test8_create_kit_without_name_parameter():
     current_kit_body =data.kit_body.copy()
     current_kit_body.pop("name")
